@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "aws-auth"
+name = "aws-auth-utils"
 description = "Easy AWS MFA authentication and role assuming"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -65,7 +65,7 @@ line_length = 100
 [tool.coverage.run]
 parallel = true
 source = [
-    "s3_manager"
+  "aws_auth"
 ]
 
 [tool.ruff]

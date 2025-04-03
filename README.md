@@ -1,5 +1,9 @@
 # AWS Auth
 
+[![Version](https://img.shields.io/pypi/v/aws-auth-utils.svg)](https://pypi.org/project/aws-auth-utils/)
+[![License](https://img.shields.io/pypi/l/aws-auth-utils.svg)](#)
+[![Supported Python Versions](https://img.shields.io/pypi/pyversions/aws-auth-utils.svg)](https://pypi.org/project/aws-auth-utils/)
+
 ```shell
 pip install aws-auth-utils
 

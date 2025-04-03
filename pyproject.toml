@@ -40,7 +40,7 @@ dynamic = ["version"]
 Homepage = "https://github.com/mvanderlee/aws_auth"
 
 [project.scripts]
-aws_auth = "aws_auth.aws_auth:cli"
+aws_auth = "aws_auth_utils.aws_auth:cli"
 
 [project.optional-dependencies]
 
@@ -52,11 +52,11 @@ publish = [
 
 [tool.hatch.build]
 include = [
-  "aws_auth",
+  "aws_auth_utils",
 ]
 
 [tool.hatch.version]
-path = "aws_auth/__init__.py"
+path = "aws_auth_utils/__init__.py"
 
 [tool.isort]
 profile = "hug"
@@ -65,7 +65,7 @@ line_length = 100
 [tool.coverage.run]
 parallel = true
 source = [
-  "aws_auth"
+  "aws_auth_utils"
 ]
 
 [tool.ruff]

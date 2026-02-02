@@ -78,3 +78,13 @@ Options:
   --help                      Show this message and exit.
 ```
 
+
+## Export Token
+
+Simple export tokens and store them as standard credentials. Useful when dealing with SSO sessions but tools don't handle it.
+
+```shell
+aws_auth export \
+  --source-profile default
+  --target-profile exported-token
+```

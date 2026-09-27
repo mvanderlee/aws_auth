@@ -5,9 +5,12 @@
 [![Supported Python Versions](https://img.shields.io/pypi/pyversions/aws-auth-utils.svg)](https://pypi.org/project/aws-auth-utils/)
 
 ```shell
-pip install aws-auth-utils
-
 aws configure --profile mfa-source
+uvx aws-auth-utils mfa
+
+# or
+pip install aws-auth-utils
+aws-auth-utils mfa
 
 aws_auth mfa
 ```

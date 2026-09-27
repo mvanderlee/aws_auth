@@ -162,7 +162,7 @@ def export(
     verbose,
     **kwargs,
 ):
-    """Sxport credentials. Useful if you have AWS SSO but tools require a real access key and secret"""
+    """Export credentials. Useful if you have AWS SSO but tools require a real access key and secret"""
     if not verbose:
         # Prevents "Found credentials in shared credentials file: ~/.aws/credentials" from showing every time
         logging.getLogger("botocore").setLevel(logging.WARN)
